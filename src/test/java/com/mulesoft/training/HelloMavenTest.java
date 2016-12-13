@@ -20,6 +20,7 @@ public class HelloMavenTest extends FunctionalTestCase {
       assertEquals("application/json", contentType);
     }
     
+    
     @Override
     protected String getConfigFile() {
         return "maven-project.xml";
